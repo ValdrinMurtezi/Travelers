@@ -1,12 +1,12 @@
 @media screen and (max-width: 400px) {
   .section1 {
-    height: 170vh;
+    height: 110vh;
   }
 
   .section1::after {
     content: "";
     background: url(./images/client3.jpg) center center/cover no-repeat;
-    height: 170vh;
+    height: 110vh;
     position: absolute;
     opacity: 10;
     top: 0;
