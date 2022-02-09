@@ -17,7 +17,7 @@ body {
 .section1::after {
   content: "";
   background: url(./images/client3.jpg) center center/cover no-repeat;
-  height: 90vh !important;
+  height: 90vh;
   position: absolute;
   opacity: 10;
   top: 0;
@@ -28,7 +28,7 @@ body {
 }
 
 .container-fluid button {
-  color: white !important;
+  color: white;
 }
 
 .logo {
