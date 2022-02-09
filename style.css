@@ -11,7 +11,7 @@ body {
 
 .section1 {
   height: 90vh !important;
-  background-color: rgba(0, 0, 0, 0.788);
+  background-color: rgba(29, 28, 28, 0.712);
 }
 
 .section1::after {
