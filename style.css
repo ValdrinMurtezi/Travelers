@@ -10,14 +10,15 @@ body {
 }
 
 .section1 {
-  height: 90vh !important;
-  background-color: rgba(29, 28, 28, 0.712);
+  height: 100vh !important;
+  background-color: rgba(12, 12, 12, 0.712);
+  padding-bottom: 1.5rem;
 }
 
 .section1::after {
   content: "";
   background: url(./images/client3.jpg) center center/cover no-repeat;
-  height: 90vh;
+  height: 100vh;
   position: absolute;
   opacity: 10;
   top: 0;
@@ -34,6 +35,7 @@ body {
 .logo {
   color: rgba(255, 255, 255, 0.973) !important;
   font-size: 33px !important;
+  width: 55%;
   padding-left: 2em;
   font-family: "Rowdies", cursive !important;
 }
@@ -64,9 +66,12 @@ header .nav-item {
   color: gold;
 }
 
+.container .row .travel {
+  padding-bottom: 2rem;
+}
+
 .travel-text {
-  padding-top: 12rem;
-  padding-right: 12rem;
+  padding-top: 11rem;
   color: rgb(226, 232, 253);
   text-shadow: 1px 1px 1px black;
   order: 1;

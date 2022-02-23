@@ -1,0 +1,45 @@
+@media (max-width: 770px) {
+  .section1 {
+    height: 200vh !important;
+    background-color: rgba(10, 10, 10, 0.459);
+  }
+  .section1::after {
+    content: "";
+    background: url(./images/client3.jpg) center center/cover no-repeat;
+    height: 200vh !important;
+    position: absolute;
+    opacity: 10;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .mr-auto {
+    width: 10% !important;
+  }
+
+  .travel-text {
+    order: 2 !important;
+    padding-top: 4rem !important;
+    color: rgb(226, 232, 253);
+    text-shadow: 1px 1px 1px black;
+    order: 1;
+  }
+
+  .img {
+    padding-top: 5rem;
+    padding-left: 0rem;
+    order: 1 !important;
+  }
+
+  .logo {
+    width: 70%;
+  }
+
+  .navbar button {
+    display: inline !important;
+    color: green !important;
+  }
+}
