@@ -34,7 +34,7 @@ body {
 .logo {
   color: rgba(255, 255, 255, 0.973) !important;
   font-size: 33px !important;
-  padding-left: 2.5em;
+  padding-left: 2em;
   font-family: "Rowdies", cursive !important;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .navbar a {
-  color: gold;
+  color: rgb(253, 253, 253);
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
 }
@@ -66,7 +66,8 @@ header .nav-item {
 
 .travel-text {
   padding-top: 12rem;
-  color: white;
+  padding-right: 12rem;
+  color: rgb(226, 232, 253);
   text-shadow: 1px 1px 1px black;
   order: 1;
 }
@@ -91,9 +92,6 @@ header .nav-item {
   width: 20rem;
 }
 
-/* get started button */
-/* From cssbuttons.io by @ernestnash */
-/* From cssbuttons.io by @nikk7007 */
 .btn {
   --color: rgba(255, 68, 0, 0);
   --color2: rgba(255, 68, 0, 0.034);
