@@ -1,45 +1,58 @@
-@media (max-width: 770px) {
-  .section1 {
-    height: 200vh !important;
-    background-color: rgba(10, 10, 10, 0.459);
-  }
+@media (max-width: 500px) {
   .section1::after {
-    content: "";
-    background: url(./images/client3.jpg) center center/cover no-repeat;
-    height: 200vh !important;
-    position: absolute;
-    opacity: 10;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: -1;
+    height: 80% !important;
   }
-
-  .mr-auto {
-    width: 10% !important;
-  }
-
   .travel-text {
     order: 2 !important;
-    padding-top: 4rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 1rem;
     color: rgb(226, 232, 253);
     text-shadow: 1px 1px 1px black;
     order: 1;
   }
+  .travel-text h1 {
+    font-size: 30px;
+  }
+
+  .travel-text p {
+    font-size: 20px;
+  }
 
   .img {
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-left: 0rem;
     order: 1 !important;
+  }
+  .img img {
+    height: 18rem;
+    width: 18rem;
   }
 
   .logo {
     width: 70%;
+    padding-left: 1rem !important;
   }
 
   .navbar button {
     display: inline !important;
     color: green !important;
+  }
+  .section2 {
+    padding: 2rem 0 15rem 0;
+  }
+
+  .section2 .row .col-md-6 .panel {
+    position: absolute;
+    top: 5vmin;
+    left: 0vmin;
+    font-size: 15px !important;
+  }
+  .panel h3 {
+    font-size: 30px !important;
+  }
+
+  .pray img {
+    height: 50vh;
+    width: 90%;
   }
 }
