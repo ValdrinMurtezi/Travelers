@@ -55,4 +55,85 @@
     height: 50vh;
     width: 90%;
   }
+
+  .section3 {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .cover .content {
+    padding-top: 1rem;
+    font-size: 15px !important;
+  }
+  .content h4 {
+    font-size: 34px;
+  }
+
+  .services .rect {
+    position: relative;
+    bottom: 0rem;
+    width: 7rem;
+    height: 7rem;
+    padding-top: 1rem;
+  }
+
+  .rect .fas {
+    font-size: 20px;
+  }
+  .rect span {
+    font-size: 17px;
+  }
+  .section4 .clients {
+    width: 100%;
+    padding-left: 4%;
+  }
+  .section4 h2 {
+    font-size: 32px;
+    position: relative;
+    right: 0rem;
+  }
+  .section4 h5 {
+    position: relative;
+    right: 0rem;
+    font-size: 17px;
+  }
+
+  .section4 .pb-4 {
+    padding-bottom: 0 !important;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  footer .copyright {
+    margin-top: 2rem;
+    padding: 1.2rem 0 0.6rem 0;
+    font-size: 15px !important;
+  }
+
+  footer h6 {
+    font-size: 15px;
+  }
+
+  .input {
+    position: relative;
+    left: 1.5rem;
+    margin-top: 1rem;
+    width: 90%;
+  }
+
+  footer .col-md-3 {
+    padding-top: 2rem;
+  }
+
+  footer .col-md-3 h5 {
+    font-size: 16px;
+    color: white;
+  }
+
+  footer .col-md-3 .fab {
+    font-size: 25px;
+    padding: 5px;
+  }
 }
