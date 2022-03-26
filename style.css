@@ -5,21 +5,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-body {
-  box-sizing: border-box;
-}
-
 .section1 {
-  min-height: 90vh !important;
+  height: 95vh;
   width: 100% !important;
   background-color: rgba(12, 12, 12, 0.712);
-  padding-bottom: 7rem !important;
+  position: relative;
 }
 
 .section1::after {
   content: "";
   background: url(./images/client3.jpg) center center/cover no-repeat;
-  min-height: 90vh !important;
+  height: 95vh;
   width: 100%;
   position: absolute;
   opacity: 10;
@@ -99,7 +95,7 @@ header .nav-item {
 }
 
 .img {
-  padding-top: 7rem;
+  padding-top: 5rem;
   padding-left: 0rem;
   order: 2;
 }
@@ -165,8 +161,8 @@ header .nav-item {
   padding: 2rem 0 2rem 0;
   display: flex;
   justify-content: center;
-  height: auto;
-  min-height: 90vh;
+  height: 90vh;
+  width: 100%;
 }
 
 .section2 .row .col-md-6:last-child {
@@ -195,7 +191,7 @@ header .nav-item {
   font-weight: bold;
 }
 
-.pray img {
+.image img {
   height: 80vh;
   width: 90%;
 }
@@ -259,13 +255,18 @@ header .nav-item {
 
 .section4 {
   height: auto;
-  width: 100%;
   padding-bottom: 4rem;
+  display: flex !important;
+  justify-content: center;
+  align-items: center !important;
 }
 
 .section4 .clients {
-  width: 100%;
-  padding-left: 10%;
+  /* width: 100% !important; */
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section4 h2 {

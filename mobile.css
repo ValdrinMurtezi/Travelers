@@ -1,6 +1,79 @@
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
+  .section1 {
+    height: auto !important;
+    padding-bottom: 3rem;
+  }
   .section1::after {
-    height: 80% !important;
+    height: auto !important;
+  }
+  .travel-text {
+    padding-top: 4rem;
+  }
+  .img {
+    padding-top: 2rem;
+  }
+
+  .section2 .row .col-md-6 .panel {
+    height: 25rem;
+    top: 3vmin !important;
+    width: 30rem;
+  }
+  .section2 .text-center {
+    width: 100% !important;
+  }
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 900px;
+  }
+  main {
+    height: auto !important;
+    padding-bottom: 3rem !important;
+  }
+  .image img {
+    height: 30rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  /* .container,
+  .container-sm {
+    max-width: 600px;
+  } */
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 863px !important;
+  }
+  .travel-text {
+    width: 100% !important;
+    order: 2 !important;
+  }
+  .img {
+    order: 1 !important;
+    width: 100%;
+    padding: 0;
+  }
+  .section1 {
+    height: auto !important;
+    padding-bottom: 2rem !important;
+  }
+  .section1::after {
+    height: auto !important;
+  }
+  main .section2 {
+    height: auto;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .section1 {
+    height: auto !important;
+  }
+  .section1::after {
+    height: auto !important;
   }
   .travel-text {
     order: 2 !important;
@@ -37,9 +110,6 @@
     display: inline !important;
     color: green !important;
   }
-  .section2 {
-    padding: 2rem 0 15rem 0;
-  }
 
   .section2 .row .col-md-6 .panel {
     position: absolute;
@@ -51,7 +121,7 @@
     font-size: 30px !important;
   }
 
-  .pray img {
+  .image img {
     height: 50vh;
     width: 90%;
   }
