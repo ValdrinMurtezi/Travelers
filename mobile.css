@@ -122,6 +122,13 @@
     width: 100% !important;
     padding: 0;
   }
+  footer .contact {
+    width: 100%;
+    padding: 0;
+  }
+  .contact .col-md-4 {
+    width: 30%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -130,6 +137,9 @@
   }
   .section1::after {
     height: auto !important;
+  }
+  .section1 .row.travel {
+    width: 100%;
   }
   .section2 {
     height: auto;
@@ -155,6 +165,7 @@
     color: rgb(226, 232, 253);
     text-shadow: 1px 1px 1px black;
     order: 1;
+    --bs-gutter-x: 0rem !important;
   }
   .travel-text h1 {
     font-size: 30px;
@@ -243,6 +254,10 @@
 
   .section4 .pb-4 {
     padding-bottom: 0 !important;
+  }
+
+  .contact .col-md-4 {
+    width: 80%;
   }
 }
 /* 
