@@ -8,15 +8,31 @@
   }
   .travel-text {
     padding-top: 4rem;
+    width: 55% !important;
   }
   .img {
     padding-top: 2rem;
   }
 
+  .section2 {
+    height: auto;
+  }
+
+  .section2 .row .col-md-6:last-child {
+    width: 20rem;
+  }
+
   .section2 .row .col-md-6 .panel {
-    height: 25rem;
+    height: auto;
     top: 3vmin !important;
     width: 30rem;
+    padding-bottom: 2rem !important;
+  }
+  .panel p {
+    font-size: 0.9em;
+  }
+  .section2 .row {
+    width: 90%;
   }
   .section2 .text-center {
     width: 100% !important;
@@ -27,20 +43,43 @@
   .container-sm {
     max-width: 900px;
   }
-  main {
-    height: auto !important;
-    padding-bottom: 3rem !important;
-  }
+
   .image img {
-    height: 30rem !important;
+    height: 30rem;
   }
 }
 
-@media (max-width: 768px) {
-  /* .container,
-  .container-sm {
-    max-width: 600px;
-  } */
+@media (max-width: 770px) {
+  .section2 .row {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section2 .row .col-md-6 .panel {
+    top: 0 !important;
+    position: relative;
+    left: 0rem !important;
+    width: 100% !important;
+    height: auto;
+  }
+  .section2 .row .col-md-6:last-child {
+    width: 95%;
+    height: auto !important;
+  }
+  .section2 .col-md-6 {
+    width: 100%;
+    height: 10% !important;
+    padding: 0;
+  }
+  .image img {
+    height: 20rem;
+    width: 90%;
+  }
+
   .container,
   .container-md,
   .container-sm {
@@ -62,9 +101,26 @@
   .section1::after {
     height: auto !important;
   }
-  main .section2 {
+  .section2 {
     height: auto;
-    padding-bottom: 5rem;
+  }
+  .cover .content {
+    padding-top: 3rem;
+  }
+  .services .rect {
+    width: 10rem;
+    height: 10rem;
+    padding: 2rem 0rem;
+  }
+
+  .section4 .clients {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .section4 .pb-4 {
+    width: 100% !important;
+    padding: 0;
   }
 }
 
@@ -75,6 +131,23 @@
   .section1::after {
     height: auto !important;
   }
+  .section2 {
+    height: auto;
+    padding-bottom: 3rem;
+  }
+  .section2 .row .col-md-6 .panel {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .container,
+  .container-md,
+  .container-sm {
+    padding: 0 !important;
+  }
+  .section2 .row .col-md-6:last-child {
+    width: 100% !important;
+  }
+
   .travel-text {
     order: 2 !important;
     padding-top: 2rem !important;
@@ -171,7 +244,8 @@
   .section4 .pb-4 {
     padding-bottom: 0 !important;
   }
-
+}
+/* 
   footer {
     font-size: 14px;
   }
@@ -206,4 +280,4 @@
     font-size: 25px;
     padding: 5px;
   }
-}
+} */

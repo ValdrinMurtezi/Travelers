@@ -200,7 +200,7 @@ header .nav-item {
 
 .section3 {
   height: auto;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
 }
 
 .section3 .cover {
@@ -235,10 +235,11 @@ header .nav-item {
   height: 12rem;
   padding-top: 4rem;
   margin: 1rem;
+  cursor: pointer !important;
 }
 
 .services .rect:hover {
-  box-shadow: 0 5px 20px orangered;
+  /* box-shadow: 0 5px 20px orangered; */
   transition: 0500ms all;
   color: orangered;
 }
@@ -256,31 +257,37 @@ header .nav-item {
 .section4 {
   height: auto;
   padding-bottom: 4rem;
+  width: 100%;
   display: flex !important;
-  justify-content: center;
+  justify-content: center !important;
   align-items: center !important;
 }
 
 .section4 .clients {
-  /* width: 100% !important; */
-  display: flex;
+  width: 100% !important;
+  display: flex !important;
   justify-content: center !important;
   flex-direction: column;
   align-items: center;
 }
+.section4 .pb-4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .section4 h2 {
   --clients: rgb(184, 113, 113);
-  font-size: 40px;
+  font-size: 45px;
   position: relative;
-  right: 5rem;
+  /* right: 5rem; */
   font-family: "Lobster", cursive;
   color: var(--clients);
 }
 
 .section4 h5 {
   position: relative;
-  right: 5rem;
+  /* right: 5rem; */
   color: var(--clients);
 }
 
@@ -291,11 +298,23 @@ footer {
   background-color: rgb(34, 32, 29);
   overflow-x: hidden;
   padding-top: 2rem;
-}
-
-footer {
   color: rgb(155, 148, 148);
   font-size: 17px;
+}
+
+footer .contact {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center !important;
+  padding-left: 4rem;
+  align-items: center;
+}
+
+footer img {
+  width: 13rem;
+  height: 13rem;
 }
 
 footer .copyright {
@@ -303,7 +322,7 @@ footer .copyright {
   overflow-x: hidden;
   padding: 1.2rem 0 0.6rem 0;
   background-color: rgb(0, 0, 0);
-  color: white;
+  color: rgb(209, 206, 206);
 }
 footer h6 {
   font-size: 19px;
