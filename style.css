@@ -169,7 +169,6 @@ header .nav-item {
 
 .section2 .row .col-md-6:last-child {
   position: relative;
-  height: 40vh;
 }
 
 .section2 .row .col-md-6 .panel {
@@ -186,6 +185,7 @@ header .nav-item {
   font-size: 100%;
   font-family: "Rubik", sans-serif;
   font-weight: bold;
+  height: 65vh;
 }
 .panel h3 {
   color: orange;

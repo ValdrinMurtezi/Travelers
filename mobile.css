@@ -140,6 +140,7 @@
   }
   .section1 .row.travel {
     width: 100%;
+    --bs-gutter-x: 0rem;
   }
   .section2 {
     height: auto;
@@ -192,7 +193,6 @@
 
   .navbar button {
     display: inline !important;
-    color: green !important;
   }
 
   .section2 .row .col-md-6 .panel {
@@ -226,16 +226,16 @@
   .services .rect {
     position: relative;
     bottom: 0rem;
-    width: 7rem;
-    height: 7rem;
+    width: 8rem;
+    height: 8rem;
     padding-top: 1rem;
   }
 
   .rect .fas {
-    font-size: 20px;
+    font-size: 27px;
   }
   .rect span {
-    font-size: 17px;
+    font-size: 20px;
   }
   .section4 .clients {
     width: 100%;
@@ -260,39 +260,3 @@
     width: 80%;
   }
 }
-/* 
-  footer {
-    font-size: 14px;
-  }
-
-  footer .copyright {
-    margin-top: 2rem;
-    padding: 1.2rem 0 0.6rem 0;
-    font-size: 15px !important;
-  }
-
-  footer h6 {
-    font-size: 15px;
-  }
-
-  .input {
-    position: relative;
-    left: 1.5rem;
-    margin-top: 1rem;
-    width: 90%;
-  }
-
-  footer .col-md-3 {
-    padding-top: 2rem;
-  }
-
-  footer .col-md-3 h5 {
-    font-size: 16px;
-    color: white;
-  }
-
-  footer .col-md-3 .fab {
-    font-size: 25px;
-    padding: 5px;
-  }
-} */
